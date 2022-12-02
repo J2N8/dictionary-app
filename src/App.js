@@ -8,15 +8,15 @@ export default function App() {
         <header className="App-header">
           <h1>Dic·tion·ar·y</h1>
           <hr />
-          <h2>
+          <h3>
             If you have a big enough dictionary, just about everything is a
             word. 
-          </h2>
+          </h3>
           <h3><em>- Dave Barry</em></h3>
           <hr />
         </header>
         <main>
-          <Dictionary />
+          <Dictionary defaultKeyword="sunshine" />
         </main>
         <footer className="App-footer">
           <small>Coded by Jasmine Poole</small>
